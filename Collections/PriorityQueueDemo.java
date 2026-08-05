@@ -20,7 +20,10 @@ public class PriorityQueueDemo {
         Pr.add(43);
         Pr.add(52);
         Pr.add(9);
-
+        System.out.println(Pr.peek());
+        System.out.println(Pr);
+        Pr.poll();
+        System.out.println("After Deletion of the Head: ");
         System.out.println(Pr);
 
     }
